@@ -80,6 +80,16 @@ body{
     align-items: center;
 }
 
+.image-button {
+    background: url('img/MagnifyingGlass.svg') no-repeat; 
+    background-size: contain; 
+    width: 24px; 
+    height: 24px; 
+    border: none; 
+    cursor: pointer; 
+  }
+  
+
 .sub-header-button-personal-area{
     font-family: "Ubuntu", sans-serif;
     font-weight: 500;
