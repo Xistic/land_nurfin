@@ -165,3 +165,34 @@ body {
     justify-content: space-around;
     flex-direction: column;
 }
+
+.recommended-product{
+    margin-top: 100px;
+}
+
+.recommended-product-title{
+    font-weight: 300;
+    font-size: 34px;
+}
+
+.recommended-product-grid-item--wrapper{
+    display: flex;
+    flex-direction: row;
+    background-color: #F0F4F8;
+}
+
+.recommended-product-grid-item-category{
+    color: #79A6C3;
+    font-size: 14px;
+}
+
+.recommended-product-grid-item-info-title{
+    font-size: 36px;
+    color: #355DFB;
+}
+
+.recommended-product-grid-item-info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
