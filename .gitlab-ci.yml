@@ -1,0 +1,17 @@
+image: node:20-alpine
+stages:
+- lint
+before_script:
+- npm install -g htmlhint csslint
+html_job:
+stage: lint
+only:
+- merge_requests
+script:
+- htmlhint *.html
+css_job:
+stage: lint
+only:
+- merge_requests
+script:
+- csslint *.css
