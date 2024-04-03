@@ -8,8 +8,33 @@ html{
     box-sizing: inherit;
 }
 
-body{
+header, main {
+    position: relative; 
+    z-index: 1; 
+}
+
+.background-container {
+    background-image: url('/img/backgroundTop.png'); 
+    background-size: cover; 
+    background-position: center; 
+    height: 630px; 
+    width: 100%; 
+    position: absolute; 
+    z-index: 0;
+}
+
+body {
     font-family: "Ubuntu", sans-serif;
+    margin: 0; 
+    padding: 0; 
+}
+
+.background-container {
+    background-image: url('/img/back.png');
+    background-size: cover; 
+    background-position: center;     
+    height: 630px; 
+    width: 100%; 
 }
 
 .container {
@@ -24,7 +49,7 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin-top: 20px;
+    padding-top: 20px;
 }
 
 .header-buttons-container span{
@@ -45,6 +70,8 @@ body{
     color: #6E9BB8;
     background: white;
     cursor: pointer; 
+    border: none;
+    height: 30px;
 }
 
 .horizontal-line {
@@ -90,7 +117,7 @@ body{
   }
   
 
-.sub-header-button-personal-area{
+.sub-button-purpule{
     font-family: "Ubuntu", sans-serif;
     font-weight: 500;
     font-size: 14px;
@@ -104,13 +131,13 @@ body{
     margin-right: 20px;    
 }
 
-.sub-header-button-online-order{
+.sub-button-white{
     font-family: "Ubuntu", sans-serif;
     font-weight: 500;
     font-size: 14px;
     width: 174px;
     height: 48px;
-    border: 1px solid #000;
+    border: none;
     background-color: #fff;  
     border-radius: 20px 0 20px 0;
     color: #0000DE;
@@ -118,3 +145,23 @@ body{
 }
 
 /* sub header style */
+
+.preview-section{
+    max-height: 510px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-top: 25px;
+}
+.preview-position{
+    display: flex;
+    flex-direction: row;
+}
+
+.preview-text{
+    padding-top: 105px;
+    padding-bottom: 120px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
