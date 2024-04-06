@@ -247,7 +247,7 @@ body {
     background-size: cover; 
     background-position: center;     
     border-radius: 50px 0 50px 0;
-    height: 630px; 
+    height: 750px; 
     width: 1350px;
     margin: 0 auto; 
     padding: 0 20px;
@@ -288,9 +288,13 @@ body {
     font-size: 27px;
     text-decoration: none;
 }
-
+.profitability-calculator-wrapper-math-box{
+    display: flex;
+    justify-content: space-around;
+}
 .profitability-calculator-wrapper-math-box-scroll{
-    max-width: 35%;
+    margin-top: 50px;
+    max-width: 30%;
 }
 
 .scroll-info{
@@ -331,7 +335,7 @@ body {
     font-family: "Ubuntu", sans-serif;
     font-weight: 500;
     font-size: 14px;
-    width: 194px;
+    width: 150px;
     height: 48px;
     border: 1px solid #c6d9e9; /* Контур кнопки */
     border-radius: 20px 0px 20px 0px;
@@ -342,3 +346,34 @@ body {
     transition: background-color 0.3s; /* Плавный переход для изменения цвета */
 }
 
+.profitability-calculator-wrapper-math-box-graph{
+    max-width: 30%;
+    margin-top: 10px;
+}
+
+.profitability-calculator-wrapper-math-box-summary{
+    background-color: white;
+    border-radius: 0px 0px 30px 0px;
+    height: 420px;
+    max-width: 350%;
+    align-items: center;
+}
+
+.profitability-calculator-wrapper-math-box-summary-button{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    width: 174px;
+    height: 48px;
+    border: none;
+    background-color: #0000DE;  
+    border-radius: 20px 0 20px 0;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 20px;    
+    margin-left: 20px;
+}
+
+.profitability-calculator-wrapper-math-box-summary-info{
+    margin: 30px 30px 30px 30px;
+}
