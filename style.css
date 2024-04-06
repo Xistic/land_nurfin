@@ -185,7 +185,9 @@ body {
     color: #79A6C3;
     font-size: 14px;
 }
-
+.recommended-product-grid-item-info-description{
+    color: #79A6C3;
+}
 .recommended-product-grid-item-info-title{
     font-size: 36px;
     color: #355DFB;
@@ -194,5 +196,33 @@ body {
 .recommended-product-grid-item-info{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     align-items: center;
 }
+
+.recommended-product-grid-item--content{
+    padding-left: 20px;
+}
+
+.recommend-product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto;
+    gap: 20px; 
+  }
+  
+  .recommended-product-grid-item-1 {
+    grid-column: span 2; 
+  }
+  
+  .recommended-product-grid-item-2 {
+    grid-column: span 1; 
+  }
+  
+  .recommended-product-grid-item-3 {
+    grid-column: span 1; 
+  }
+  .recommended-product-grid-item-4 {
+    grid-column: span 2; 
+  }
+
