@@ -174,7 +174,7 @@ body {
     margin-top: 100px;
 }
 
-.recommended-product-title{
+.section-title{
     font-weight: 300;
     font-size: 34px;
 }
@@ -288,3 +288,57 @@ body {
     font-size: 27px;
     text-decoration: none;
 }
+
+.profitability-calculator-wrapper-math-box-scroll{
+    max-width: 35%;
+}
+
+.scroll-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.scroll-info-title{
+    font-size: 16px;
+    font-weight: 300;
+}
+.scroll-info-currency{
+    font-size: 18px;
+}
+
+.slider-1 {
+    position: relative; /* Позиционирование относительно */
+    width: 100%; /* Ширина линии */
+    height: 4px; /* Высота линии */
+    background-color: #d3d3d3; /* Цвет линии */
+    border-radius: 2px;
+}
+
+.slider-1::before {
+    content: ''; /* Обязательное свойство для псевдоэлемента */
+    position: absolute; /* Абсолютное позиционирование относительно родительского элемента */
+    width: 20px; /* Ширина шарика */
+    height: 20px; /* Высота шарика */
+    background-color: #0000DE; /* Цвет шарика */
+    border-radius: 50%; /* Превращаем в круг */
+    top: -9px; /* Сдвигаем шарик вверх, чтобы он оказался посередине линии */
+    left: 0; /* Располагаем шарик в начале линии */
+}
+
+
+.check-box-button {
+    position: relative; 
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    width: 194px;
+    height: 48px;
+    border: 1px solid #c6d9e9; /* Контур кнопки */
+    border-radius: 20px 0px 20px 0px;
+    color: #c6d9e9; /* Стандартный цвет текста */
+    cursor: pointer;
+    padding-left: 36px;
+    background-color: #f0f4f8; /* Стандартный цвет фона */
+    transition: background-color 0.3s; /* Плавный переход для изменения цвета */
+}
+
