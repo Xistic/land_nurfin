@@ -123,7 +123,7 @@ body {
     font-size: 14px;
     width: 174px;
     height: 48px;
-    border: 1px solid #000000;
+    border: none;
     background-color: #0000DE;  
     border-radius: 20px 0 20px 0;
     color: #fff;
@@ -167,6 +167,7 @@ body {
 }
 .preview-buttons-section{
     display: flex;
+    margin-bottom: 20px;
 }
 
 .recommended-product{
@@ -230,8 +231,60 @@ body {
   
   .recommended-product-grid-item-3 {
     grid-column: span 1; 
+
   }
   .recommended-product-grid-item-4 {
     grid-column: span 2; 
   }
 
+/*profit calculator*/
+
+.profitability-calculator{
+    margin-top: 150px;
+}
+.background-container-profitability-calculator{
+    background-color: #f0f4f8;
+    background-size: cover; 
+    background-position: center;     
+    border-radius: 50px 0 50px 0;
+    height: 630px; 
+    width: 1350px;
+    margin: 0 auto; 
+    padding: 0 20px;
+}
+
+.profitability-calculator-wrapper{
+    max-width: 1275px;
+}
+
+.profitability-calculator-wrapper-buttons-item-arrow{
+    border-radius: 20px;
+    background-image: url(/img/caretDoubleRight.svg);
+    background-position: 20px center;
+}
+.profitability-calculator-wrapper-buttons-item-cart{
+    border-radius: 20px;
+    background-image: url(/img/cartBig.svg);
+    background-position: 20px center;
+}
+.profitability-calculator-wrapper-buttons{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.profitability-calculator-wrapper-buttons-item{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    height: 132px;
+    background-color: #0000DE;
+    background-repeat: no-repeat;
+    align-items: center;
+    margin: -50px 5px 50px 20px;
+}
+
+.profitability-calculator-wrapper-buttons-item-arrow-title{
+    color: #fff;
+    font-size: 27px;
+    text-decoration: none;
+}
