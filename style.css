@@ -165,6 +165,9 @@ body {
     justify-content: space-around;
     flex-direction: column;
 }
+.preview-buttons-section{
+    display: flex;
+}
 
 .recommended-product{
     margin-top: 100px;
@@ -177,10 +180,15 @@ body {
 
 .recommended-product-grid-item--wrapper{
     display: flex;
+    height: 100%;
     flex-direction: row;
+    justify-content: space-around;
     background-color: #F0F4F8;
 }
 
+.recommended-product-grid-item-text{
+    color: #79A6C3;
+}
 .recommended-product-grid-item-category{
     color: #79A6C3;
     font-size: 14px;
@@ -202,13 +210,14 @@ body {
 
 .recommended-product-grid-item--content{
     padding-left: 20px;
+    max-width: 300px;
 }
 
 .recommend-product-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto auto;
-    gap: 20px; 
+    gap: 10px; 
   }
   
   .recommended-product-grid-item-1 {
