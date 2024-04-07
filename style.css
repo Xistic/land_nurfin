@@ -377,3 +377,170 @@ body {
 .profitability-calculator-wrapper-math-box-summary-info{
     margin: 30px 30px 30px 30px;
 }
+
+
+.your-capabilities{
+    margin-top: 100px;
+    
+}
+
+.your-capabilities-wrapper{
+    display: flex;
+}
+
+.your-capabilities-stat{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.your-capabilities-list{
+    max-width: 30%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.your-capabilities-list-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 400px;
+}
+
+.your-capabilities-list-item{
+    display: flex;
+    align-items: center;
+}
+
+.your-capabilities-list-item-button{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    width: 60%;
+    height: 48px;
+    border: none;
+    background-color: #0000DE;  
+    border-radius: 20px 0 20px 0;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 20px;    
+}
+
+.your-capabilities-stat{
+    width: 100%;
+}
+.your-capabilities-stat-graph{
+    display: flex;
+    justify-content: space-around;
+}
+
+.your-capabilities-stat-graph-title{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.your-capabilities-stat-graph-left-graph-column-time{
+    color: #7c83a1;
+}
+
+
+
+.your-capabilities-stat-graph-left-graph-wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    
+}
+
+.your-capabilities-stat-graph-left-graph-column-income{
+    font-size: 20px;
+    font-weight: 700;
+    color: #7c83a1;
+}
+
+.your-capabilities-stat-graph-left-graph-column-income-select{
+    font-size: 20px;
+    font-weight: 700;
+    color: #355dfb;
+}
+.your-capabilities-stat-graph-left-graph-column-post-1{
+    width: 95px;
+    height: 35px;
+    background: #c9cee1;
+    border-radius: 13px 0px 13px 0px;
+}
+
+.your-capabilities-stat-graph-left-graph-column-post-select{
+    width: 95px;
+    height: 105px;
+    background: #355dfb;
+    border-radius: 13px 0px 13px 0px;
+}
+
+.your-capabilities-stat-graph-left-graph-column-post-3{
+    width: 95px;
+    height: 46px;
+    background: #c9cee1;
+    border-radius: 13px 0px 13px 0px;
+}
+
+.your-capabilities-stat-graph-left-graph-column-type{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.your-capabilities-stat-graph-left-graph-column-type-select{
+    font-size: 14px;
+    font-weight: 700;
+    color: #355dfb;
+}
+
+.your-capabilities-stat-graph-right-graph-type-wrapper{
+    display: flex;
+    justify-content: space-around;
+}
+
+.your-capabilities-stat-graph-right-graph-type-wrapper-item{
+    display: flex;
+    align-items: center;
+}
+
+.your-capabilities-stat-graph-right-graph-type-wrapper-item-1-point{
+    width: 14px;
+    height: 14px;
+    background-color: #7c83a1;
+    border-radius: 50%; 
+}
+
+
+.your-capabilities-stat-graph-right-graph-type-wrapper-item-2-point{
+    width: 14px;
+    height: 14px;
+    background-color: #0000de;
+    border-radius: 50%; 
+}
+
+
+.your-capabilities-stat-graph-bottom{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.your-capabilities-stat-graph-bottom-wrapper{
+    display: flex;
+    justify-content: space-around;
+}
+
+.your-capabilities-stat-graph-bottom-item-warranty{
+    display: flex;
+    align-items: center;
+}
+.your-capabilities-stat-graph-bottom-item-title{
+    margin-bottom: 1px;
+    font-size: 16px;
+}
+.your-capabilities-stat-graph-bottom-item-warranty img{
+    width: 20px;
+    height: 20px;
+}
