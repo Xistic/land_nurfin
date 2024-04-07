@@ -544,3 +544,146 @@ body {
     width: 20px;
     height: 20px;
 }
+
+.reviews{
+    margin-top: 100px;
+}
+
+.background-container-reviews{
+    background-color: #f0f4f8;
+    background-size: cover; 
+    border-radius: 90px 0 90px 0;
+    width: 100%;
+}
+
+
+.background-container-reviews-list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.background-container-reviews-list img{
+    width: 370px;
+}
+.background-container-reviews-list-item{
+    margin: 0px 3px 0px 3px;
+}
+.background-container-reviews-list-item-author{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 2px;
+}
+
+
+.background-container-reviews-list-item-type{
+    font-size: 16px;
+    font-weight: 400;
+    color: #6e9bb8;
+}
+
+.background-container-reviews{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sub-button-white{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    width: 30%;
+    height: 48px;
+    border: none;
+    background-color: #fff;  
+    border-radius: 20px 0 20px 0;
+    color: #0000DE;
+    cursor: pointer; 
+    margin-bottom: 20px;
+}
+
+.useful-information{
+    margin-top: 100px;
+}
+
+
+.useful-information-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto;
+    gap: 10px; 
+  }
+  
+  .useful-information-item-1 {
+    grid-column: span 1; 
+    height: 100%;
+    border-radius: 20px 20px 20px 20px;
+    background-color: #f0f4f8;
+    background-repeat: no-repeat;
+    background-image: url(/img/Question.png);
+    background-position: top 20px right 20px; 
+    position: relative;
+  }
+  
+  .useful-information-item-2 {
+    grid-column: span 1; 
+    height: 100%;
+    border-radius: 20px 20px 20px 20px;
+    background-color: #f0f4f8;
+    background-repeat: no-repeat;
+    background-image: url(/img/CircleHalf.png);
+    background-position: top 20px right 20px; 
+    position: relative;
+  }
+  
+  .useful-information-item-3 {
+    grid-column: span 1; 
+    height: 100%;
+    border-radius: 20px 20px 20px 20px;
+    background-color: #f0f4f8;
+    background-repeat: no-repeat;
+    background-image: url(/img/GraduationCap.png);
+    background-position: top 20px right 20px; 
+    position: relative;
+  }
+
+  .useful-information-item-list {
+    list-style: none;
+    font-size: 16px;
+}
+
+.useful-information-item-list li {
+    position: relative;
+    padding-left: 40px;
+    padding-right: 50px;
+    margin-bottom: 40px;
+    margin-left: -30px;
+    color: #0000de;
+}
+
+.useful-information-item-list li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px; /* Ширина изображения */
+    height: 20px; /* Высота изображения */
+    background-image: url("/img/CaretRight.png"); /* Путь к изображению */
+    background-size: cover;
+    background-position: center;
+}
+
+.useful-information-item-list li a {
+    text-decoration: none; /* убираем подчеркивание у ссылок */
+}
+.useful-information-item-title{
+    margin-left: 20px;
+}
+
+.useful-information-item-category{
+    color: #79a6c3;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 20px 0px 0px 20px;
+}
