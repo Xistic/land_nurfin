@@ -7,6 +7,73 @@ html{
 *::after{
     box-sizing: inherit;
 }
+/*-------------------------*/
+@media screen and (max-width: 600px) {
+    .container{
+        color: #f0f4f8;
+        width: 95%;
+        align-items: center;
+    }
+    .background-container{
+        display: none;
+    }
+
+    nav .header-collection{
+        display: none;
+    }
+    .buttons-collection{
+        display: none;
+    }
+    .header-buttons-container-mobile-wrapper{
+        display: block;
+    }
+    .header-buttons-container-mobile-burger{
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+        max-width: 20%;
+    }
+    .header-buttons-container-mobile-logo{
+        display: block;
+    }
+        /* Стили для бургер-кнопки */
+    .header-buttons-container-mobile-burger-menu {
+        height: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        cursor: pointer;
+    }
+
+    .line {
+        width: 22px;
+        height: 2px;
+        background-color: #000;
+    }
+
+    .header-buttons-container-mobile-button{
+        background: #0000de;
+        border-radius: 16px 0;
+        line-height: 31px;
+        height: 31px;
+        font-weight: 500;
+        font-size: 12px;
+        text-align: center;
+        color: #fff;
+        width: 127px;
+    }
+
+    main{
+        display: none;
+    }
+
+    footer{
+        display: none;
+    }
+}
+
+
+/*-------------------------*/
 
 header, main {
     position: relative; 
@@ -42,7 +109,9 @@ body {
     margin: 0 auto; 
     padding: 0 20px;
 }
-
+.header-buttons-container-mobile-wrapper{
+    display: none;
+}
 /* header style */
 .header-buttons-container{
     display: flex;
