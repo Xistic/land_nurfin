@@ -1,3 +1,4 @@
+/* csslint ignore: zeroUnits */
 html {
     box-sizing: border-box;
 }
@@ -7,7 +8,7 @@ html {
 *::after {
     box-sizing: inherit;
 }
-/*-------------------------*/
+
 @media screen and (max-width: 600px) {
 .container {
     color: #f0f4f8;
