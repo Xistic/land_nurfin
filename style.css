@@ -129,7 +129,7 @@ body {
     color: #6E9BB8;
 }
 
-.header-button {
+.header__collection-button {
     background: none;
     border: none;
     font-family: "Ubuntu", sans-serif;
@@ -139,7 +139,7 @@ body {
     cursor: pointer; 
 }
 
-.header-button-change-language {
+.buttons__collection-language-button {
     color: #6E9BB8;
     background: white;
     cursor: pointer; 
@@ -147,7 +147,7 @@ body {
     height: 30px;
 }
 
-.horizontal-line {
+.horizontal__line {
     border: 0;
     height: 1px;
     background-color: #CBD8E9;
@@ -155,7 +155,7 @@ body {
     width: 100%; 
 }
 
-.sub-header-button {
+.header__collection-header-button {
     background: none;
     border: none;
     font-family: "Ubuntu", sans-serif;
@@ -165,18 +165,18 @@ body {
     cursor: pointer; 
 }
 
-.header-collection {
+.header__collection {
     display: flex;
     flex-direction: row;
 }
 
-.phone-number {
+.header__collection-phone-number {
     display: flex;
     margin-right: 20px;
     align-items: center;
 }
 
-.image-button {
+.header__collection-image-button {
     background: url('img/MagnifyingGlass.svg') no-repeat; 
     background-size: contain; 
     width: 24px; 
@@ -185,7 +185,7 @@ body {
     cursor: pointer; 
 }
 
-.sub-button-purpule {
+.header__collection-button-purpule {
     font-family: "Ubuntu", sans-serif;
     font-weight: 500;
     font-size: 14px;
@@ -199,7 +199,7 @@ body {
     margin-right: 20px;    
 }
 
-.sub-button-white{
+.header__collection-button-white{
     font-family: "Ubuntu", sans-serif;
     font-weight: 500;
     font-size: 14px;
