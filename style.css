@@ -220,12 +220,12 @@ body {
     padding-top: 25px;
 }
 
-.preview-position {
+.preview-section__position {
     display: flex;
     flex-direction: row;
 }
 
-.preview-text {
+.preview-section__position-text {
     padding-top: 105px;
     padding-bottom: 120px;
     display: flex;
